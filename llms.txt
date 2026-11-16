@@ -1,0 +1,25 @@
+# STEMpathi: Hands-on Math
+
+> A hands-on math app for children aged 5 to 11 (from first counting at Pre-K–K to equations at grades 5–7). Children move cubes, tens and hundreds on a balance scale to learn counting, place value and equations. Works fully offline. No ads, no account, no analytics; the app collects no data. Free to download; today every lesson is free and there are no in-app purchases. Android, in a Google Play test; not yet on iPhone or iPad. Made by Sripathi.One.
+
+Key facts (true as of 2026-11-15):
+- Method: concrete pieces first, then pictures, then numbers (Bruner's enactive–iconic–symbolic modes); a balance scale for the meaning of the equal sign; negative numbers as balloons that pull a pan up; islands in learning order, informed by the learning-trajectories approach (Clements & Sarama).
+- Islands: Counting Shore (Pre-K–K), Make-Ten Reef (K–1), Tens Harbour (grades 1–2), Hundreds Peaks (grades 2–3), Sharing Bridge (grades 3–4), Unknowns Summit (grades 5–7).
+- Standards: practises US Common Core topics from K.CC to 6.EE (the makers' own alignment, not an endorsement).
+- Calm design: no timers to beat, no points race, a hint from the guide Avi when a child is stuck, calm motion and night mode.
+- Not claimed: no study of learning outcomes has been run; no ratings or awards.
+
+## Pages
+- [Home](https://stempathi.sripathi.one/): what the app is, lesson captures, how to join the Android test
+- [How it teaches](https://stempathi.sripathi.one/how-it-teaches/): the method, skills by island and grade, research references
+- [Parent FAQ](https://stempathi.sripathi.one/faq/): ages, offline use, ads, account, privacy, price, devices
+- [How to choose a math app for a young child](https://stempathi.sripathi.one/choosing-a-math-app/): an eight-question checklist, with STEMpathi's answers and its limits
+
+## Policies
+- [Privacy policy](https://stempathi.sripathi.one/privacy/)
+- [Support](https://stempathi.sripathi.one/support/)
+- [Terms of use](https://stempathi.sripathi.one/terms/)
+
+## Optional
+- [Google Play listing](https://play.google.com/store/apps/details?id=one.sripathi.equationexplorer)
+- Contact: r2k8@sripathi.one

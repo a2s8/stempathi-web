@@ -1,0 +1,38 @@
+name: IndexNow ping
+# Tells Bing/Yandex (IndexNow) which pages changed after a push to main.
+# Off until the repository variable INDEXNOW_ENABLED is set to "true"
+# (Settings > Secrets and variables > Actions > Variables). No secrets needed.
+on:
+  push:
+    branches: [main]
+    paths: ["**.html", "sitemap.xml", "llms.txt"]
+  workflow_dispatch:
+    inputs:
+      all:
+        description: "Ping every URL in sitemap.xml"
+        type: boolean
+        default: true
+jobs:
+  ping:
+    if: vars.INDEXNOW_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Wait for GitHub Pages to publish
+        run: sleep 90
+      - name: Ping changed pages
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            tools/indexnow.sh --all
+            exit 0
+          fi
+          urls=""
+          for f in $(git diff --name-only HEAD~1 HEAD -- '*.html'); do
+            case "$f" in test/*|whatsapp/*|demo.html) continue;; esac
+            p=$(echo "$f" | sed -e 's#index\.html$##')
+            urls="$urls https://stempathi.sripathi.one/$p"
+          done
+          if git diff --name-only HEAD~1 HEAD | grep -qE '^(sitemap\.xml|llms\.txt)$'; then urls="$urls https://stempathi.sripathi.one/"; fi
+          tools/indexnow.sh $(echo $urls | tr ' ' '\n' | sort -u)

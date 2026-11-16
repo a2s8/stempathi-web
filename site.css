@@ -30,7 +30,7 @@ section{padding:56px 0;border-top:1px solid var(--line)}
 .band .button{background:var(--ink)}
 .email{font-size:20px;font-weight:600;word-break:break-all}
 footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}footer .row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px}footer ul{display:flex;flex-wrap:wrap;gap:16px;list-style:none;padding:0;margin:0}
-.doc{max-width:720px;padding:48px 0 24px}.doc h1{font-size:clamp(30px,4vw,42px)}.doc h2{font-size:20px;margin:30px 0 8px}.doc .meta{color:var(--muted);font-size:14px}.doc p{max-width:70ch}
+.doc{max-width:768px;padding:48px 24px 24px}.doc h1{font-size:clamp(30px,4vw,42px)}.doc h2{font-size:20px;margin:30px 0 8px}.doc .meta{color:var(--muted);font-size:14px}.doc p{max-width:70ch}
 details{border:1px solid var(--line);border-radius:12px;padding:12px 16px;background:var(--card);margin:0 0 10px}summary{cursor:pointer;font-weight:600}
 /* Images retain their intrinsic ratio even when HTML width/height reserve space. */
 img{max-width:100%;height:auto}
@@ -89,3 +89,9 @@ section{scroll-margin-top:88px}
 @keyframes lm-star{0%,82%{transform:scale(0) rotate(-40deg)}89%{transform:scale(1.35) rotate(15deg)}94%{transform:scale(1) rotate(0)}97%{transform:scale(1.15)}100%{transform:scale(1)}}
 @keyframes lm-sub{0%,80%{opacity:0;transform:translateY(10px)}92%,100%{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.logo-motion *{animation:none!important}}
+.kv{display:grid;grid-template-columns:max-content 1fr;gap:6px 18px;margin:10px 0 0}.kv dt{font-weight:700;color:var(--teal)}.kv dd{margin:0;color:var(--ink)}
+@media (max-width:560px){.kv{grid-template-columns:1fr}.kv dt{margin-top:8px}}
+.table-wrap{overflow-x:auto;margin:18px 0}.table-wrap table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px;background:var(--card)}
+.table-wrap caption{text-align:left;font-weight:700;padding:0 0 8px}.table-wrap th,.table-wrap td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+.table-wrap thead th{background:var(--mint)}.table-wrap td.codes{font-size:13px;color:var(--muted)}
+.refs{font-size:14px;color:var(--muted)}.refs li{margin:0 0 8px}
