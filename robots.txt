@@ -1,0 +1,6 @@
+# STEMpathi: Hands-on Math. All crawlers, including AI search crawlers, may read every page.
+# /test/ and /whatsapp/ carry a noindex tag instead of a block, so crawlers can see it.
+User-agent: *
+Allow: /
+
+Sitemap: https://stempathi.sripathi.one/sitemap.xml
