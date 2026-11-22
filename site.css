@@ -100,3 +100,6 @@ section{scroll-margin-top:88px}
 .store-strip li{flex:0 0 auto;width:min(270px,62vw);scroll-snap-align:start}
 .store-strip img{display:block;width:100%;height:auto}
 .store-strip li:first-child img{border-radius:18px 0 0 18px}.store-strip li:last-child img{border-radius:0 18px 18px 0}
+
+.trust-cards{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+#trust{padding:56px 0}
