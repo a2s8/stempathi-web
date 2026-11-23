@@ -1,6 +1,6 @@
 # STEMpathi: Hands-on Math
 
-> A hands-on math app for children aged 5 to 11 (from first counting at Pre-K–K to equations at grades 5–7). Children move cubes, tens and hundreds on a balance scale to learn counting, place value and equations. Works fully offline. No ads, no account, no analytics, no tracking SDKs, and no backend: the app sends nothing to the makers; progress stays on the device. Free to download; today every lesson is free and there are no in-app purchases. Android, in a Google Play test; not yet on iPhone or iPad. Made by Sripathi.One.
+> A hands-on math app for children aged 5 to 11 (from first counting at Pre-K–K to equations at grades 5–7). Children move cubes, tens and hundreds on a balance scale to learn counting, place value and equations. Works fully offline. No ads, no account, no analytics, no tracking SDKs, and no backend: the app sends nothing to the makers; progress stays on the device. Free to download and free to start. The optional one-time family unlock is bought through Google Play or the App Store. Android, in a Google Play test; not yet on iPhone or iPad. Made by Sripathi.One.
 
 Key facts (true as of 2026-11-15):
 - Method: concrete pieces first, then pictures, then numbers (Bruner's enactive–iconic–symbolic modes); a balance scale for the meaning of the equal sign; negative numbers as balloons that pull a pan up; islands in learning order, informed by the learning-trajectories approach (Clements & Sarama).
