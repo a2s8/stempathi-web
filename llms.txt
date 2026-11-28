@@ -2,7 +2,7 @@
 
 > A hands-on math app for children aged 5 to 11 (from first counting at Pre-K–K to equations at grades 5–7). Children move cubes, tens and hundreds on a balance scale to learn counting, place value and equations. Works fully offline. No ads, no account, no analytics, no tracking SDKs, and no backend: the app sends nothing to the makers; progress stays on the device. Free to download and free to start (all of kindergarten and the first two rounds of every later island); one optional family unlock, a single Google Play purchase with no subscription, opens the rest. The child never sees a price. Android on Google Play (https://play.google.com/store/apps/details?id=one.sripathi.equationexplorer); iPhone and iPad coming soon. Made by Sripathi.One.
 
-Key facts (true as of the Google Play launch, November 2026):
+Key facts (true as of 2026-11-27, Android 1.0.0 on Google Play):
 - Method: concrete pieces first, then pictures, then numbers (Bruner's enactive–iconic–symbolic modes); a balance scale for the meaning of the equal sign; negative numbers as balloons that pull a pan up; islands in learning order, informed by the learning-trajectories approach (Clements & Sarama).
 - Islands: Counting Shore (Pre-K–K), Make-Ten Reef (K–1), Tens Harbour (grades 1–2), Hundreds Peaks (grades 2–3), Sharing Bridge (grades 3–4), Unknowns Summit (grades 5–7).
 - Standards: practises US Common Core topics from K.CC to 6.EE (the makers' own alignment, not an endorsement).
@@ -14,6 +14,7 @@ Key facts (true as of the Google Play launch, November 2026):
 - [How it teaches](https://stempathi.sripathi.one/how-it-teaches/): the method, skills by island and grade, research references
 - [Parent FAQ](https://stempathi.sripathi.one/faq/): ages, offline use, ads, account, privacy, price, devices
 - [How to choose a math app for a young child](https://stempathi.sripathi.one/choosing-a-math-app/): an eight-question checklist, with STEMpathi's answers and its limits
+- [Get the app](https://stempathi.sripathi.one/get/): Google Play download (Android 1.0); iPhone and iPad coming soon
 
 ## Policies
 - [Privacy policy](https://stempathi.sripathi.one/privacy/)
