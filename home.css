@@ -117,3 +117,5 @@ main{overflow:hidden}
 .hero2-art .phone2-wrap .phone2{position:static;width:100%}
 .hero2-art .phone2-wrap .phone2-cap{position:static;width:auto;margin:10px 0 0;text-align:center;color:#e6f2ef;font-size:14px}
 @media(max-width:900px){.hero2-art .phone2-wrap{display:none}}
+/* Align every home section heading to the same left edge as the hero and story (1180 px wrap) */
+.bandx > .wrap{max-width:1180px}

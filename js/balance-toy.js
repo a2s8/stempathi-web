@@ -19,9 +19,10 @@
   }
   function xbox(x, y, lift) { // 46 x 40 box; lift 0..1 opens the lid and shows the cubes inside
     let h = '';
-    if (lift > 0) {
-      const n = st.x, s = 16;
-      for (let i = 0; i < n; i++) h += '<g opacity="' + lift + '">' + cube(x + 2 + (i % 3) * 15, y - 4 - lift * 18 - Math.floor(i / 3) * 16, 14) + '</g>';
+    if (lift > 0) { // the x cubes rise out of the box at full size (23 px, same as the others)
+      const n = st.x, s = 23, cols = Math.min(n, 3);
+      for (let i = 0; i < n; i++) { const c = i % 3, r = Math.floor(i / 3);
+        h += '<g opacity="' + lift + '">' + cube(x + 23 - cols * 12.5 + c * 25, y - 26 - lift * 30 - r * 25, s) + '</g>'; }
     }
     h += '<rect x="' + x + '" y="' + y + '" width="46" height="40" rx="7" fill="#2a4c9a" stroke="#1b336e" stroke-width="2"/>';
     h += '<g transform="rotate(' + (-lift * 75) + ' ' + x + ' ' + y + ')"><rect x="' + (x - 2) + '" y="' + (y - 8) + '" width="50" height="11" rx="5" fill="#3459ad" stroke="#1b336e" stroke-width="2"/></g>';
@@ -46,7 +47,7 @@
     beam.setAttribute('transform', 'rotate(' + ang + ' ' + CX + ' ' + CY + ')');
     const lx = CX - ARM * Math.cos(a), ly = CY - ARM * Math.sin(a), rx = CX + ARM * Math.cos(a), ry = CY + ARM * Math.sin(a);
     if (st.mode === 'findx') {
-      pan(panL, lx, ly, (x, base) => xbox(x - 72, base - 40, open) + stack(st.a, x - 20, base));
+      pan(panL, lx, ly, (x, base) => xbox(x - 56, base - 40, open) + stack(st.a, x - 4, base));
       pan(panR, rx, ry, (x, base) => stack(st.b, x - 62, base));
     } else {
       pan(panL, lx, ly, (x, base) => stack(st.L, x - 62, base));
