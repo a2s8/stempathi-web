@@ -95,3 +95,12 @@ main{overflow:hidden}
 .hero2 .logo-motion .fulcrum{border-bottom-color:#f5e3a8}
 .hero2 .logo-motion .tag{color:#f5e3a8}
 @media(max-width:900px){.hero2 .logo-motion{transform:scale(.72);transform-origin:left top;margin-bottom:-18px}}
+/* Restored from the pre-#25 page (founder: never drop earlier work) */
+.seelessons{margin:6px 0 4px}.seelessons a{display:inline-flex;align-items:center;min-height:48px;color:#fff;font-weight:600;text-decoration:underline;text-underline-offset:4px}
+.hero2-art .phone2{z-index:2}
+.hero2-art .phone2-back{position:absolute;z-index:1;right:4%;top:14%;width:15%;transform:rotate(7deg);border:6px solid #0d2524;border-radius:26px;overflow:hidden;box-shadow:0 20px 40px rgba(0,0,0,.3)}
+.hero2-art .phone2-back img{display:block;width:100%;height:auto}
+.hero2-art .phone2-cap{position:absolute;right:11%;width:21%;top:calc(6% + 21% * 1.9 + 22px);text-align:center;color:#e6f2ef;font-size:14px;margin:0}
+.hero-phone-m{display:none}
+@media(max-width:900px){.hero-phone-m{display:block;width:min(230px,62vw);margin:10px auto 18px;border:6px solid #0d2524;border-radius:28px;overflow:hidden;box-shadow:0 14px 34px rgba(0,0,0,.25)}.hero-phone-m img{display:block;width:100%;height:auto}.hero2-art .phone2-back,.hero2-art .phone2-cap{display:none}}
+@media(max-width:900px){.hero2-art .phone2{display:none}}
