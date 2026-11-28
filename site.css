@@ -105,5 +105,7 @@ section{scroll-margin-top:88px}
 #trust{padding:56px 0}
 
 .soon-chip{display:inline-flex;align-items:center;min-height:44px;padding:8px 16px;border:2px dashed var(--line);border-radius:999px;color:var(--muted);font-weight:600;font-size:15px;background:transparent;cursor:default;vertical-align:middle}
-/* Google Play badge, used once the founder OKs the official file: 60px high, never recoloured or stretched; the margin keeps Google's clear space (one quarter of the badge height) */
-.play-badge{display:inline-block;margin:15px 15px 15px 0;line-height:0}.play-badge img{height:60px;width:auto;display:block}
+/* Google Play badge: Google's official file, which already includes its clear space. Shown 200px wide, never stretched, recoloured, cropped, bordered or shadowed. */
+.play-badge{display:inline-block;line-height:0;border-radius:10px;vertical-align:middle;min-height:48px}
+.play-badge img{width:200px;height:auto;display:block}
+.play-badge:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
