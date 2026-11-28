@@ -111,3 +111,37 @@ section{scroll-margin-top:88px}
 .play-badge:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
 
 h2.h3{font-size:1.17em;margin:0 0 6px}
+
+/* Home redesign 2026-11-28: product-first hero, how it works, compact facts */
+.hero-preview{position:relative}
+.hero-preview .phone-main{position:relative;z-index:2;width:min(360px,80vw);margin:0 auto}@media(min-width:901px){.hero-preview .phone-main{margin:0 120px 0 auto}}
+.hero-preview .phone-main img{width:100%;height:auto;display:block}
+.hero-preview .phone-back{position:absolute;z-index:1;width:230px;right:-20px;top:90px;transform:rotate(6deg);opacity:.95}
+.hero-preview .phone-back img{width:100%;height:auto;display:block}
+@media(max-width:1100px){.hero-preview .phone-back{right:-60px}}
+@media(max-width:900px){.hero-preview .phone-back{display:none}}
+.how3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin:22px 0 14px}
+.how3 figure{margin:0}
+.how3 img{width:100%;height:auto;display:block;border-radius:22px;border:6px solid var(--ink)}
+.how3 figcaption{margin-top:12px;color:var(--muted);line-height:1.45}
+.how3 figcaption strong{display:block;color:var(--ink);font-size:18px;margin-bottom:4px}
+@media(max-width:760px){.how3{grid-template-columns:1fr;max-width:340px;margin-left:auto;margin-right:auto}}
+#howit,#questions{padding:56px 0}
+.qa details{background:#fff;border:1px solid var(--line);border-radius:12px;margin:10px 0}
+.qa summary{cursor:pointer;min-height:48px;display:flex;align-items:center;padding:12px 16px;font-weight:600}
+.qa details p{padding:0 16px 14px;margin:0}
+@media(min-width:900px){.facts-card .kv{display:grid;grid-template-columns:auto 1fr auto 1fr;column-gap:22px;row-gap:12px}.facts-card .kv dt{margin:0}.facts-card .kv dd{margin:0}}
+.soon-chip{min-height:48px}
+.cta .button{min-height:48px}
+@media(max-width:760px){header nav a{min-height:48px;display:inline-flex;align-items:center}header .brand{min-height:48px}footer li a{display:inline-block;padding:15px 0}#howit p>a,#questions p>a,#glance p>a,#join .preview-note a{display:inline-block;padding:14px 0}}
+
+#story{padding:56px 0;background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.story{max-width:820px}
+.story .research{margin-top:22px;background:var(--paper);border-radius:16px;padding:18px 22px}
+.story .research h3{margin:0 0 8px;font-size:18px}
+.story .research ul{margin:0;padding-left:20px}.story .research li{margin:8px 0;line-height:1.5}
+.story .research a{display:inline-block;padding:4px 0}
+.story .note{margin:12px 0 0;font-weight:600;color:var(--ink)}
+@media(max-width:760px){.hero-preview .phone-main{width:min(300px,78vw)}}
+.hero-phone-m{display:none}
+@media(max-width:900px){.hero-phone-m{display:block;width:min(230px,62vw);margin:14px auto 18px;border:6px solid var(--ink);border-radius:28px;overflow:hidden;box-shadow:0 14px 34px rgba(0,0,0,.14)}.hero-phone-m img{display:block;width:100%;height:auto}.hero-preview{display:none}.logo-motion{transform:scale(.72);transform-origin:left top;margin-bottom:-26px}}
