@@ -71,7 +71,7 @@
       show('[data-a="both-"]', !alone && level); show('[data-a="both+"]', level && !alone && st.a < PUZZLES[st.p][1]);
       show('[data-a="left-"]', level && !alone && st.a > 0); show('[data-a="left+"]', !level);
       show('[data-a="next"]', alone);
-      read.textContent = msg || (alone ? 'x = ' + st.x + '. x is worth ' + st.x + '.' :
+      read.textContent = msg || (alone ? 'x is worth ' + st.x + '. The box held ' + st.x + ' cubes.' :
         level ? eq.textContent + '. The scale is level.' : 'The left side is lighter. Do the same on both pans to keep it level.');
     } else {
       left = st.L; right = st.R; diff = right - left;
