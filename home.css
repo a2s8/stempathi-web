@@ -83,3 +83,6 @@ main{overflow:hidden}
 .hero2 .eyebrow .status-dot{background:#f5e3a8}
 .bandx .eyebrow{color:#9c4426}
 .dark.bandx .eyebrow{color:#f5e3a8}
+/* Hero eyebrow: the hero is both .bandx and .hero2, so the coral rule above won; keep yellow on teal (4.79:1) */
+.bandx.hero2 .eyebrow,.bandx.dark .eyebrow{color:#f5e3a8}
+.bandx.hero2 .eyebrow .status-dot{background:#f5e3a8}
