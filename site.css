@@ -145,3 +145,18 @@ h2.h3{font-size:1.17em;margin:0 0 6px}
 @media(max-width:760px){.hero-preview .phone-main{width:min(300px,78vw)}}
 .hero-phone-m{display:none}
 @media(max-width:900px){.hero-phone-m{display:block;width:min(230px,62vw);margin:14px auto 18px;border:6px solid var(--ink);border-radius:28px;overflow:hidden;box-shadow:0 14px 34px rgba(0,0,0,.14)}.hero-phone-m img{display:block;width:100%;height:auto}.hero-preview{display:none}.logo-motion{transform:scale(.72);transform-origin:left top;margin-bottom:-26px}}
+/* Phone header: one compact row with a Menu button (founder 2026-11-27: the top bar looked tall) */
+.menu-btn{display:none}
+@media(max-width:760px){
+ header nav{flex-wrap:nowrap;align-items:center;min-height:56px;position:relative}
+ header .brand small{display:none}
+ header .brand{min-height:48px}
+ .js header .menu-btn{display:inline-flex;align-items:center;justify-content:center;margin-left:auto;min-height:48px;min-width:48px;padding:0 18px;border:2px solid var(--line);border-radius:999px;background:#fff;color:var(--ink);font:600 16px Fredoka,Inter,sans-serif;cursor:pointer}
+ .js header .menu-btn[aria-expanded="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+ .js header .menu-btn:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+ .js header nav ul{display:none;position:absolute;top:100%;left:-24px;right:-24px;margin:0;padding:8px 24px 14px;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 14px 24px rgba(23,61,64,.12);flex-direction:column;gap:0;z-index:50}
+ .js header nav ul.open{display:flex}
+ .js header nav ul li a{display:flex;align-items:center;min-height:48px;font-size:17px;white-space:nowrap}
+}
+@media(max-width:760px){header nav{padding:4px 0;gap:12px}}
+@media(max-width:760px){header nav{position:static}.js header nav ul{left:0;right:0}}
