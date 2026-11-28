@@ -86,3 +86,12 @@ main{overflow:hidden}
 /* Hero eyebrow: the hero is both .bandx and .hero2, so the coral rule above won; keep yellow on teal (4.79:1) */
 .bandx.hero2 .eyebrow,.bandx.dark .eyebrow{color:#f5e3a8}
 .bandx.hero2 .eyebrow .status-dot{background:#f5e3a8}
+/* Hero wordmark on teal (founder 2026-11-27): white letters 6.12:1; EM dark #173d40 on yellow #f5e3a8; beam, pivot and tag in yellow 4.79:1 */
+.hero2 .logo-motion{margin:0 0 18px}
+.hero2 .logo-motion .word{color:#fff}
+.hero2 .logo-motion .hl{background:#f5e3a8}
+.hero2 .logo-motion .emw .l{color:#173d40}
+.hero2 .logo-motion .beam{background:#f5e3a8}
+.hero2 .logo-motion .fulcrum{border-bottom-color:#f5e3a8}
+.hero2 .logo-motion .tag{color:#f5e3a8}
+@media(max-width:900px){.hero2 .logo-motion{transform:scale(.72);transform-origin:left top;margin-bottom:-18px}}
